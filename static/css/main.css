@@ -1,0 +1,224 @@
+body {
+    background-color: rgb(19, 19, 19);
+    font-family: 'Courier New', monospace;
+    color: #9c9999;
+}
+
+.navbar {
+    background-color: rgb(36, 37, 37);
+    overflow: hidden;
+    border-bottom: 3px solid rgb(251, 251, 251);
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 0.5;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: large;
+
+}
+
+.homa .logo {
+    height: 70px;
+    width: 70px;
+    float: left;
+    
+  }
+
+.navbar .homa a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+
+.navbar .a {
+    float: right;
+    margin: 5px;   
+    border-radius: 10px;
+    background-color: #009dff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar .a a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+.navbar .a:hover {
+    background-color: #b8acff;
+  }
+  
+
+.home-div {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    padding-top: 30px;
+}
+
+.intro {
+    background-color: rgb(1, 54, 70);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.avatar img {
+    padding: 10px 10px;
+    margin-left: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+}
+
+.intro .summary {
+    padding-left: 5px;
+    padding-right: 40px;
+}
+
+.projects {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(55, 64, 72);
+}
+
+.projects h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+div.projects >div:nth-of-type(odd) {
+    background-color: #232424;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.project h3 {
+    padding-left: 20px;
+}
+
+
+.project img {
+    margin-top: 20px;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.project-link {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #dee58c;
+    color: #000000;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.project-link:hover {
+    background-color: #f59042;
+  }
+
+.resume {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(55, 64, 72);
+}
+
+.resume h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+.resume .pdf {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.resume .pdf a {
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #009dff;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 10px;
+}
+
+.resume .pdf a:hover {
+    background-color: #b8acff;
+  }
+
+.experience {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(55, 64, 72);
+}
+
+.experience h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+.achievements {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(55, 64, 72);
+}
+
+.achievements h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+div.list>div:nth-of-type(odd) {
+    background-color: #232424;
+}
+
+.list .list-item {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
