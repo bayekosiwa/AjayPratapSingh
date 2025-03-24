@@ -176,6 +176,25 @@ div.projects >div:nth-of-type(odd) {
     background-color: #b8acff;
   }
 
+.certificates .pdf {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.certificates .pdf a {
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #009dff;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 10px;
+}
+
+.certificates .pdf a:hover {
+    background-color: #b8acff;
+  }
+
 .experience {
     margin-top: 10px;
     padding-top: 5px;
@@ -199,6 +218,20 @@ div.projects >div:nth-of-type(odd) {
 }
 
 .achievements h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+.certificates {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(55, 64, 72);
+}
+
+.certificates h1 {
     text-align: center;
     font-size: 40px;
     color: #000000;
