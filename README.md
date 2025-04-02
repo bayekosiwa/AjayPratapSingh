@@ -5,4 +5,4 @@ A simple static website built by me using HTML and CSS.
 
 Screenshot:
 
-![Screenshot 2024-07-08 at 21-47-21 Ajay Pratap Singh](https://github.com/bayekosiwa/AjayPratapSingh.github.io/assets/105776696/49487c59-fa25-495c-a538-83bdfd5cd2ad)
+![Screenshot 2025-04-02 at 17-35-25 Ajay Pratap Singh](https://github.com/user-attachments/assets/9d15e3ae-2f09-4b6f-8620-204233b243ee)
